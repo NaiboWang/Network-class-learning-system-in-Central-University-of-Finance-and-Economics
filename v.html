@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+
+<body onload="clear()">
+<p>
+  <video  id="myVideo" autoplay="autoplay" controls src="v.mp4" width="500" height="500">
+  </video>
+</p>
+<p>&nbsp;</p>
+<form id="form1" name="form1" method="post" action="">
+  <input type="button" name="button" id="button" value="按钮" onclick="play()" />
+</form>
+<p>&nbsp; </p>
+<script>
+
+var myVideo = document.getElementById('myVideo')//获取video元素
+    ,tol = 0 //总时长
+;
+myVideo.addEventListener("loadedmetadata", function(){
+    tol = myVideo.duration;//获取总时长
+});
+
+//播放
+function play(){ 
+    myVideo.play();
+}
+
+//暂停
+function pause(){ 
+    myVideo.pause();
+}
+
+//播放时间点更新时
+myVideo.addEventListener("timeupdate", function(){
+    var currentTime = myVideo.currentTime;//获取当前播放时间
+    console.log(currentTime);//在调试器中打印
+});
+
+
+//设置播放点
+function playBySeconds(num){ 
+    myVideo.currentTime = num;
+}
+
+//音量改变时
+myVideo.addEventListener("volumechange", function(){
+    var volume = myVideo.volume;//获取当前音量
+    console.log(volume);//在调试器中打印
+});
+
+//设置音量
+function setVol(num){ 
+    myVideo.volume = num;
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+// JavaScript Document
+$(function(){
+	$('.express h2').each(function(index, element) {
+       $(this).hover(function(){
+		   $('.express h2').removeClass('hover');
+		 	 $(this).addClass('hover');
+			 $('.express .more').hide();
+			 $('.express .more').eq(index).show();
+			 $('.express .bhh').hide();
+			 $('.express .bhh').eq(index).show();
+		 });
+    });
+
+});

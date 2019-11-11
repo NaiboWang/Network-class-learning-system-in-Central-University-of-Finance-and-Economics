@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:工号;datatype:tinytext,name:姓名;datatype:tinytext,name:密码;datatype:tinytext,name:总时长;datatype:mediumint,name:最后一次观看时间;datatype:timestamp,name:现在正在观看的视频;datatype:tinyint,name:统计学;datatype:mediumint,name:数学;datatype:mediumint,name:MBA;datatype:mediumint,name:计算机;datatype:mediumint,name:统计软件;datatype:mediumint" />
+	<infoitem key="UD_Recordset2" value="name:视频ID;datatype:mediumint,name:用户工号;datatype:tinytext,name:总长度;datatype:double,name:md5;datatype:tinytext,name:ID;datatype:mediumint,name:视频名;datatype:tinytext,name:文件名;datatype:tinytext,name:类;datatype:tinytext,name:时长;datatype:mediumint" />
+	<infoitem key="UD_Recordset3" value="name:视频ID;datatype:mediumint,name:用户工号;datatype:tinytext,name:总长度;datatype:double,name:md5;datatype:tinytext,name:ID;datatype:mediumint,name:视频名;datatype:tinytext,name:文件名;datatype:tinytext,name:类;datatype:tinytext,name:时长;datatype:mediumint" />
+	<infoitem key="UD_Recordset4" value="name:视频ID;datatype:mediumint,name:用户工号;datatype:tinytext,name:总长度;datatype:double,name:md5;datatype:tinytext,name:ID;datatype:mediumint,name:视频名;datatype:tinytext,name:文件名;datatype:tinytext,name:类;datatype:tinytext,name:时长;datatype:mediumint" />
+	<infoitem key="UD_Recordset5" value="name:视频ID;datatype:mediumint,name:用户工号;datatype:tinytext,name:总长度;datatype:double,name:md5;datatype:tinytext,name:ID;datatype:mediumint,name:视频名;datatype:tinytext,name:文件名;datatype:tinytext,name:类;datatype:tinytext,name:时长;datatype:mediumint" />
+	<infoitem key="UD_Recordset6" value="name:视频ID;datatype:mediumint,name:用户工号;datatype:tinytext,name:总长度;datatype:double,name:md5;datatype:tinytext" />
+	<infoitem key="UD_Recordset7" value="name:num;datatype:double" />
+	<infoitem key="UD_Recordset8" value="name:num;datatype:double" />
+	<infoitem key="UD_Recordset9" value="name:num;datatype:double" />
+</info>

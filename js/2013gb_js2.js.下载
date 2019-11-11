@@ -1,0 +1,2 @@
+// JavaScript Document
+new Marquee({MSClass:["S_box","S_Coutent"],Direction:2,PrevBtnID:"S_LeftButton",NextBtnID:"S_RightButton",Step:0.3,Width:1004,Height:229,Timer:20,DelayTime:8000,WaitTime:8000,ScrollStep:1004,SwitchType:0,AutoStart:true});

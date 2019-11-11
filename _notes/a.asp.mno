@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:工号;datatype:tinytext,name:姓名;datatype:tinytext,name:密码;datatype:tinytext,name:总时长;datatype:mediumint,name:最后一次观看时间;datatype:timestamp,name:现在正在观看的视频;datatype:tinyint" />
+	<infoitem key="UD_Recordset2" value="name:视频ID;datatype:mediumint,name:用户工号;datatype:tinytext,name:总长度;datatype:mediumint,name:md5;datatype:tinytext,name:ID;datatype:mediumint,name:视频名;datatype:tinytext,name:文件名;datatype:tinytext,name:视频长度;datatype:mediumint" />
+</info>
